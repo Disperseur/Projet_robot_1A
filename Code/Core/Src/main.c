@@ -77,7 +77,7 @@ volatile uint8_t nb_conv = 0; //nombre de conversions realisees dans le cycle de
 volatile uint8_t flag_blanc = 0;
 volatile int blancs[] = {0, 0, 0, 0};
 volatile int tbl_detection[] = {0, 0, 0, 0};
-volatile int seuils_detection[] = {1000, 2700, 3000, 3000};
+volatile int seuils_detection[] = {1000, 1000, 3000, 3000}; //{1000, 2700, 3000, 3000};
 volatile uint8_t start = 0;
 volatile unsigned int Vbatt = MAX_VBATT;
 
